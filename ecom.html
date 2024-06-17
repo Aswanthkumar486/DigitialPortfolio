@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ecommerce</title>
+    <style>
+        *{
+            text-transform: capitalize;
+        }
+        body{
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+            background: rgba(174, 159, 159, 0.516);
+        }
+        header{
+            background-color: black;
+            height: 150px;
+        }
+        header li{
+            text-align: center;
+            list-style-type:none;
+            text-decoration: none;
+            list-style: none;
+            display: inline-flex;
+            margin: 20px;
+            position: relative;
+            left: 450px;
+            font-size: 35px;
+            color: white;
+            padding-top: 20px;
+            text-transform: capitalize;
+            
+        }
+        .container{
+            display:flex;
+
+        }
+         img{
+            display:inline-flex;
+        
+            height: 340px;
+            width: 250px;
+            margin: 9px;
+            opacity: 0.9;
+            border-radius: 30px;
+
+        
+        }
+        button:hover{
+            background-color: aliceblue;
+        }
+        button{
+            color: rgb(2, 12, 16);
+            margin-bottom: 3px;
+            background-color: rgb(30, 57, 227);
+
+      }
+        span{
+            text-align: center;
+            border: 1px solid black;
+            margin: 10px;
+            display: inline-block;
+            border-radius: 2px;  
+            margin-left: 60px;
+
+        }
+        li:hover{
+            background-color: rgba(21, 21, 221, 0.955);
+        }
+        footer{
+            text-transform: capitalize;
+            text-align: center;
+            color: aliceblue;
+            height: 350px;
+            font-size: large;  
+            padding-top: 20px;
+            background-color: rgb(33, 3, 3);
+        }
+        #img{
+            animation-name: example;
+            animation-duration: 2s;
+            animation-iteration-count:infinite;
+            animation-timing-function: linear;
+  
+        }
+       
+
+        @keyframes example {
+            from{
+                background-image:url('bg.jpg');
+                width: 150px;
+                height: 150px; 
+                background-repeat: no-repeat;
+                background-position: center;
+            }      
+            to{
+                background-image: url('taj.jpg');
+                height: 150px;;
+                width: 150px;;
+            }
+            
+        }
+       #img{
+        width: 50%;
+       position: relative;
+       
+       }
+       #polarid{
+       background-color: aqua;
+       overflow: hidden;
+       }
+    </style>
+    <script>
+        let age = 11;
+      let result =  age >= 18? "you are elgible":"not eligible";
+        console.log(result) 
+    </script>
+</head>
+<body>
+    <header>
+        <ul>
+            <li>home</li>
+            <li>about</li>
+            <li>service </li>
+            <li>contact</li>        </ul>
+    </header>
+    <div class="container">
+    <span><img src="taj.jpg" alt="dress"><figcaption>this shirt price <p>$65</p></figcaption><button>add to cart</button></span>
+     <span class="secondimg"><img src="taj.jpg" alt="tshirt" id="secondimg"><figcaption>this is pant<p> 45$</p></figcaption><button>add to cart</button></span>
+     <span class="thirdimg"><img src="bg.png" alt="pant"><figcaption>this is shirt <p>75$</p></figcaption><button>add to cart</button></span>
+       <span class="fourimg"><img src="taj.jpg" alt="shirt"><figcaption>this is a pant <p>55$</p></figcaption><button>add to cart</button></span>
+    </div>
+   
+    <footer>
+        <h4>&copy; designed by aswanth kumar</h3>
+    </footer>
+</body>
+</html>

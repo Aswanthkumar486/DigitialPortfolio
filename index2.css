@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+  
+   
+   
+}
+body{
+   background-repeat: no-repeat;
+    position: relative;
+    background-image:url('WhatsApp\ Image\ 2024-06-15\ at\ 12.32.24_2f0bc1af.jpg');
+     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: sticky;
+
+}
+.iconss{
+    position: relative;
+   margin-top: 3%;
+   margin-left: 80px;
+}
+  
+   
+
+header{
+    height: 100px;
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    color: aliceblue;
+}
+nav{
+    position: relative; 
+    left: 65%; 
+   right: 0;
+    margin: 20px;
+    border-radius: 50%;
+   
+   
+}
+header ul{
+    position: relative;
+    right: 20px;
+    
+}
+header li{   
+    display:inline-block;
+    margin-right: 5px;
+    padding: 3px;
+    margin: 1px;
+    font-size: 23px;
+
+}
+header h1{
+   position: relative;
+   left:5%;
+   top: 5%;
+   margin-top: 5px;
+   letter-spacing: 2px;
+  
+}
+a{
+    text-decoration: none;
+    color: wheat; 
+    margin: 1px;
+    padding: 1px;
+}
+ li:hover{
+    background-color: white;
+    
+}
+a:hover{
+    color: blue;
+}
+.home_img{
+    float: right;
+   border-radius: 10%;
+    margin:45px 55px;
+   
+    padding-right: 2px;
+    box-shadow:  12px 13px 1px black;
+}
+span{
+    position: relative;
+    top: 60px;
+    text-align: center;
+    word-spacing: 1px;
+    margin: 10px;
+
+}
+span h2{
+    font-size: 50px;;
+    margin-bottom: 15px;
+}
+span button{
+   position: relative;
+   left: 34%;
+    margin: 30px;
+    height: 39px;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5%;
+    text-align: center;
+    background-color: cadetblue;
+    color: aliceblue;
+   
+
+    
+}
+#about{
+    height: 300px;
+    background-color: blue;
+    width: 600px;
+   position: relative;
+   top: 400px;
+   left: 25%;
+   right: 20px;
+   text-align: center;
+   border-radius: 20px;
+   color: aliceblue;
+   padding: 2px;
+   word-spacing: 5px;
+}
+#about p{
+    text-align: left;
+    gap: 5px;
+    padding: 15px;
+}   
+#about button{
+    width: 80px;
+    height: 30px;
+    background-color:black;
+    color:white;
+    border-radius: 5px;  
+}    
+footer{
+    position: absolute;
+    top: 200%;
+   
+    height: 300px;
+    background-color: black;
+    width: 100%;
+    display: flex;
+    color:white;
+    
+
+}
+footer li{
+    list-style:linear-gradient(black,blue,green);
+    font-size: 25px;
+position: relative;
+right: 900px;
+margin: 25px;
+    
+  
+}
+footer a{
+    text-align: center;
+    text-decoration: none;
+    color: rgb(65, 171, 227);
+}
+@media screen and (max-width:424px) {
+    #about{
+        height: 500px;
+        width:150px;
+        font-size:smaller;
+    }
+    footer{
+        height: 100px;
+        width:100%;
+    }
+    header{
+        height: 300px;
+        width: 100%;
+    }
+    header li{
+        position: relative;
+       right: 179px;
+       display: block;
+        margin: 25px;
+        cursor: pointer;
+        
+    }
+    
+    
+}

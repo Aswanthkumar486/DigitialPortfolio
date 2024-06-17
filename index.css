@@ -1,0 +1,247 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    text-transform: capitalize;
+    transition: all 0.5s linear;
+    box-sizing: border-box;
+   
+
+    
+
+    
+}
+header{
+    display: inline-flex;
+    border-bottom: 2px solid  whitesmoke;
+   width: 100%;
+}
+ul a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(29, 3, 3);  
+    margin: 2px;
+    
+}
+ul li{
+    display: inline-flex;
+    list-style: none;
+    text-align: right;
+    position: relative;
+    left: 100vh;
+    margin: 21px;
+    padding-top: 1px;
+    border-bottom:3px solid rgb(87, 26, 186) ;
+   
+}
+
+    
+
+
+.home{
+    display: inline-block;
+    height: 20%;
+    width: 424px;
+ 
+
+   
+}
+.home img{
+    display: inline-flex;
+   
+    width: 350px;
+    height: 350px;
+    position:absolute;   
+    right:200px;     
+ bottom: 180px;
+
+ margin-right: 10px;
+ margin-bottom: 30px;
+    
+}
+.home p{
+    color: rgb(98, 68, 207);
+    font-size: 45px;
+    font-family: sans-serif;
+    text-align: left;
+    padding-top: 25px;
+    margin-left: 100px;
+   
+    position: relative; 
+    top: 20px;
+    left: 60px;
+}
+header  h3{
+   position: relative;  
+   left: 50px;   
+   top: 10px;
+   margin: 5px;
+
+}
+.home button{
+    width: 140px; 
+    height: 35px;
+    text-align: center;
+    position: relative;
+    left: 250px;
+    top: 29px;
+    border-radius: 7px;
+    background-color:  rgb(98, 68, 207);
+    color: white;
+    border: none;
+}
+.icons{
+    margin: 50px;
+    position: relative;
+    top: 60px;
+    left: 180px;
+   height: 20px;
+    bottom: 15px;
+    padding: 30px;
+
+}
+.icons a{
+    margin: 20px;
+    color:blue;
+}
+
+.about img{
+    width: 350px;
+    height: auto;
+  
+
+}
+.about{
+    display: inline-block;
+    height: 20%;
+    width: auto;
+}
+
+span{
+    display:inline-flex;
+    position: relative;
+    left: 150px;
+    right: 100px;
+    align-items: center;
+   
+}
+span h2{
+    position: absolute;
+   padding-bottom: 190px;
+    bottom: 115px;
+    text-align: center;
+
+}
+html{
+    scroll-behavior: smooth;
+} 
+span p{
+    position: relative;
+    bottom: 155px;
+    padding-bottom: 60px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+} 
+  
+
+.about h2{
+    text-align: center;
+    margin-left: 10px;
+   
+}
+.about img{
+    margin-left: 140px;
+}
+.skills{
+    display: block;
+    width: 424px;
+    height: 20%;
+}
+.skills img{
+   width: 35%;
+   position: relative;
+   left: 55%;
+ bottom: 350px;
+}
+.skills h2{
+    font-size: 30px;
+    color: blue;
+    text-align: center;
+}
+article{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom:290px;
+}
+.work{
+    width: 424px;
+    height: 20%;
+}
+.contact{
+ 
+    display:inline-flex;
+   flex-direction: column;
+   position: relative;
+   left: 620px;
+   text-align: center;
+   margin-bottom: 80px;
+   height: 20%;
+}
+.contact input{
+    margin: 16px;
+    height: 35px;
+    width: 200px;
+    border-radius: 8px;
+    border-color:  rgb(80, 56, 133);
+    
+}
+textarea{  
+    height: 70px;   
+    margin: 20px;
+
+}
+.contact button{
+    height: 25px;
+    padding-left: 2px;
+    margin-left: 55px; 
+    text-align: center;
+    background-color: blue;
+    color: aliceblue;
+    border-radius: 5px;
+    border: none;
+}
+.contact h2{
+    color: blue;
+}
+footer{
+    height: 100px;
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+}
+.work{
+    text-align: center;
+    height: 20%;   
+    width: 424px;
+}
+.skills-ul li{
+position: relative;
+left:-72%;
+font-size: 30px;
+color: blue;
+font-style: italic;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   border: none;
+       
+  display: block;
+ padding-top: 10px;
+  margin-top: 50px;
+   padding: 5px;
+   margin-left: 20px;
+
+}
+.skills-ul ul{
+    text-align: left;
+    margin: 20px;
+}
